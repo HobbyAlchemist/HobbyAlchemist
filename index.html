@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sparehacks.no - Din komplette guide til smarte sparetips og pengehacks">
+    <title>Sparehacks.no - Smarte Sparetips & Pengehacks</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>💰 Sparehacks.no</h1>
+                    <p class="tagline">Smarte tips for smartere økonomi</p>
+                </div>
+                <nav class="nav">
+                    <a href="#alle" class="nav-link active" data-category="alle">Alle Tips</a>
+                    <a href="#mat" class="nav-link" data-category="mat">Mat & Dagligvare</a>
+                    <a href="#bolig" class="nav-link" data-category="bolig">Bolig</a>
+                    <a href="#reise" class="nav-link" data-category="reise">Reise</a>
+                    <a href="#streaming" class="nav-link" data-category="streaming">Streaming & Abonnement</a>
+                    <a href="#bank" class="nav-link" data-category="bank">Bank & Finans</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2 class="hero-title">Spar penger uten å ofre livskvalitet</h2>
+                <p class="hero-subtitle">Oppdag hundrevis av smarte tips som hjelper deg spare tusenvis av kroner årlig</p>
+                
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Søk etter sparetips..." class="search-input">
+                    <button class="search-btn">🔍</button>
+                </div>
+
+                <div class="stats">
+                    <div class="stat-card">
+                        <div class="stat-number" id="tipCount">0</div>
+                        <div class="stat-label">Sparetips</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">6</div>
+                        <div class="stat-label">Kategorier</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">50k+</div>
+                        <div class="stat-label">Kr spart/år</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tips-section">
+            <div class="container">
+                <div class="section-header">
+                    <h3 class="section-title" id="categoryTitle">Alle Sparetips</h3>
+                    <div class="sort-filter">
+                        <select id="sortSelect" class="sort-select">
+                            <option value="popular">Mest populære</option>
+                            <option value="savings">Høyest besparelse</option>
+                            <option value="recent">Nyeste først</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div id="tipsGrid" class="tips-grid">
+                </div>
+
+                <div id="noResults" class="no-results" style="display: none;">
+                    <p>Ingen tips funnet. Prøv et annet søk eller kategori.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Om Sparehacks.no</h4>
+                    <p>Din komplette guide til smarte sparetips og pengehacks. Vi hjelper nordmenn med å spare penger uten å ofre livskvalitet.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Kategorier</h4>
+                    <ul>
+                        <li><a href="#mat">Mat & Dagligvare</a></li>
+                        <li><a href="#bolig">Bolig</a></li>
+                        <li><a href="#reise">Reise</a></li>
+                        <li><a href="#streaming">Streaming</a></li>
+                        <li><a href="#bank">Bank & Finans</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontakt</h4>
+                    <p>Har du et godt sparetips?<br>Del det med oss!</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sparehacks.no - Alle rettigheter reservert</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
