@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "cloudflare-api": {
+      "url": "https://mcp.cloudflare.com/mcp",
+      "description": "Hovedserver for Cloudflare API - tilgang til 2500+ endepunkter"
+    },
+    "cloudflare-docs": {
+      "url": "https://docs.mcp.cloudflare.com/mcp",
+      "description": "Søk i Cloudflare utviklerdokumentasjon"
+    },
+    "cloudflare-browser": {
+      "url": "https://browser.mcp.cloudflare.com/mcp",
+      "description": "Hent nettsider, konverter til markdown og ta skjermbilder"
+    },
+    "cloudflare-containers": {
+      "url": "https://containers.mcp.cloudflare.com/mcp",
+      "description": "Spin opp sandbox utviklingsmiljø"
+    },
+    "cloudflare-dex": {
+      "url": "https://dex.mcp.cloudflare.com/mcp",
+      "description": "Digital Experience Monitoring - innsikt i kritiske applikasjoner"
+    },
+    "cloudflare-casb": {
+      "url": "https://casb.mcp.cloudflare.com/mcp",
+      "description": "Cloudflare One CASB - identifiser sikkerhetsmisforståelser i SaaS-applikasjoner"
+    },
+    "cloudflare-agents-sdk": {
+      "url": "https://agents.cloudflare.com/mcp",
+      "description": "Token-effektivt søk i Cloudflare Agents SDK dokumentasjon"
+    }
+  }
+}
